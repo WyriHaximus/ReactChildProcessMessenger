@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac4cb8b264095f4e2a1da18af712346c",
+    "content-hash": "d23fe8780be7773309e94f6c62b29c5f",
     "packages": [
         {
             "name": "cakephp/core",
@@ -1497,26 +1497,26 @@
         },
         {
             "name": "wyrihaximus/json-throwable",
-            "version": "4.1.0",
+            "version": "4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WyriHaximus/php-json-throwable.git",
-                "reference": "d01d59a101d4d2639ec3be770646a7e6b168fafb"
+                "reference": "91c35387bc347dd6fcf37e8baf2588f464a76018"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WyriHaximus/php-json-throwable/zipball/d01d59a101d4d2639ec3be770646a7e6b168fafb",
-                "reference": "d01d59a101d4d2639ec3be770646a7e6b168fafb",
+                "url": "https://api.github.com/repos/WyriHaximus/php-json-throwable/zipball/91c35387bc347dd6fcf37e8baf2588f464a76018",
+                "reference": "91c35387bc347dd6fcf37e8baf2588f464a76018",
                 "shasum": ""
             },
             "require": {
-                "doctrine/instantiator": "^1.0.5",
+                "doctrine/instantiator": "^1.0.5 || ^2.0.0",
                 "php": "^8 || ^7.4",
-                "thecodingmachine/safe": "^1.1",
-                "wyrihaximus/json-utilities": "^1.2"
+                "thecodingmachine/safe": "^1.3.3 || ^2.0.0",
+                "wyrihaximus/json-utilities": "^1.3.1"
             },
             "require-dev": {
-                "wyrihaximus/test-utilities": "^3.3.1"
+                "wyrihaximus/test-utilities": "^3.3.1 || ^6.0.0"
             },
             "type": "library",
             "autoload": {
@@ -1540,7 +1540,7 @@
             "description": "📠 JSON encode and decode throwables and exceptions",
             "support": {
                 "issues": "https://github.com/WyriHaximus/php-json-throwable/issues",
-                "source": "https://github.com/WyriHaximus/php-json-throwable/tree/4.1.0"
+                "source": "https://github.com/WyriHaximus/php-json-throwable/tree/4.2.0"
             },
             "funding": [
                 {
@@ -1548,7 +1548,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-11-25T13:14:10+00:00"
+            "time": "2024-05-09T13:10:29+00:00"
         },
         {
             "name": "wyrihaximus/json-utilities",
@@ -10011,5 +10011,5 @@
     "platform-overrides": {
         "php": "7.4.7"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
